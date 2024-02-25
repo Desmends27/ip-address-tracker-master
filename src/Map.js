@@ -38,5 +38,4 @@ const Map = ({ipData, errorMessage}) => {
         );
     }
 }
- 
 export default Map;
