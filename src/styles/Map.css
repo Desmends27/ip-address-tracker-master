@@ -1,0 +1,29 @@
+img{
+  width: 100%;
+}
+.leaflet-container {
+    height: 62vh;
+    z-index: 0;
+  }
+
+.leaflet-div-icon {
+  width: 10%;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.error_map{
+  height: 60vh;
+}
+@media (min-width: 50em) {
+  .error_map{
+    height: 55vh;
+  }
+  img{
+    position: absolute;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%);
+  }
+}
